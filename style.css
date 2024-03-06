@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -76,10 +77,10 @@ header a.hover {
     padding-top: 30px;
 }
 
-.profile01 p {
-    position: relative;
-    top: 30px;
-    left: 1286px;
+.titleP1 { 
+    display: flex;
+    align-items: right;
+    padding-top: 20px;
 }
 
 .img01 {
@@ -90,9 +91,8 @@ header a.hover {
 }
 
 .img01P {
-    position: relative;
-    top: 50px;
-    left: 20px;
+    padding-left: 0px;
+    padding-top: 35px; 
 }
 
 .imgStyle {
@@ -102,11 +102,28 @@ header a.hover {
     padding-left: 150px;
 }
 
+.textMara {
+    text-align: justify;
+    padding-top: 80px;
+    margin-left: 30px;
+    width: 700px; 
+    height: 370px;
+    font-size: 20px;
+}
+
+
 .profile02 {
     display: flex;
+    flex-direction: row;
     width: 100%;
-    height: 350px;
+    height: 370px;
     background-color: #666666;
+}
+
+.titleP2 {
+    display: flex;
+    align-items: right;
+    padding-top: 1px;
 }
 
 .img02 {
@@ -117,9 +134,17 @@ header a.hover {
 }
 
 .img02P {
-    position: relative;
-    top: 25px;
-    left: 900px;
+    padding-left: 100px;
+    padding-top: 35px; 
+}
+
+.textBreno {
+    text-align: justify;
+    padding-top: 80px;
+    margin-left: 30px;
+    width: 800px; 
+    height: 370px;
+    font-size: 20px;
 }
 
 .tec {
