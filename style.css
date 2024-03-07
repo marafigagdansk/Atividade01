@@ -108,7 +108,11 @@ header a.hover {
     margin-left: 30px;
     width: 700px; 
     height: 370px;
-    font-size: 20px;
+    font-size: 20px;    
+}
+
+.textMara p {
+    color: #ffffff;
 }
 
 
@@ -182,11 +186,11 @@ header a.hover {
     width: 250px;
     text-align: justify;
     padding-top: 20px;
-    margin-left: 70px;
+    margin-left: 75px;
 }
 
 .cssImgP {
-    margin-top: -150px;    
+    margin-top: -180px;    
     margin-left: 500px; 
 }
 
@@ -196,8 +200,16 @@ header a.hover {
     object-fit: cover;
 }
 
+.cssText {
+    height: 50px;
+    width: 250px;
+    text-align: justify;
+    padding-top: 20px;
+    margin-left: 475px;
+}
+
 .jsImgP {
-    margin-top: -250px;    
+    margin-top: -325px;    
     margin-left: 900px;
 }
 
@@ -207,7 +219,17 @@ header a.hover {
     object-fit: cover;
 }
 
+.jsText {
+    height: 50px;
+    width: 250px;
+    text-align: justify;
+    padding-top: 20px;
+    margin-left: 870px;
+}
 
+.allImg {
+    color: #ffffff;
+}
 
 .contact {
     display: flex; 
